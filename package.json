@@ -1,0 +1,15 @@
+{
+  "name": "game-card-memory",
+  "version": "1.0.0",
+  "description": "Pokemon memory card game",
+  "main": "public/index",
+  "scripts": {
+    "dev:js": "node build.js",
+    "dev:css": "sass --watch --style=compressed ./assets/sass/index.scss:./public/css/style.min.css"
+  },
+  "type": "module",
+  "devDependencies": {
+    "bootstrap": "^5.3.8",
+    "esbuild": "^0.28.0"
+  }
+}
