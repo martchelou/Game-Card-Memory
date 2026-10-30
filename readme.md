@@ -1,5 +1,7 @@
 # Game Card Memory
 
+![image](./public/img/Game-Card-Memory.png)
+
 [reference](https://github.com/app-ideas/app-ideas/blob/master/Projects/Card-Memory-Game.md)
 
 **Tier:** 2-Intermediate
