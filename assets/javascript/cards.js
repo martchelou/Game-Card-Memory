@@ -48,7 +48,7 @@ const toggleCardFlip = (event, card_id) =>
     }
     if (turned.size === pokeapi.limit * 2 && control.win_count === pokeapi.limit)
     {
-        modalOpen(`<h1 class="text-center fw-light display-1 text-danger">You Win !!!</h1>`);
+        modalOpen(`<h1 class="text-center fw-light display-1 text-white p-5">Game Over!!!</h1>`,'bg-animation');
         winControl();
     }
     cardFlip(cardContainer);

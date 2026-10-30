@@ -21,3 +21,17 @@
     }
 }
 .flipCard {transform: rotateY(180deg);}
+.bg-animation {
+    background-color: var(--purple--900);
+    animation-name: anima_bg;
+    animation-duration: 4s;
+}
+@keyframes anima_bg {
+    0%   {background-color:var(--purple--900)}
+    15%  {background-color: var(--red--900);}
+    30%  {background-color: var(--orange--900);}
+    45%  {background-color: var(--yellow--900)}
+    60% {background-color: var(--green--900);}
+    75% {background-color: var(--blue--900);}
+    100% {background-color: var(--purple--900);}
+}
